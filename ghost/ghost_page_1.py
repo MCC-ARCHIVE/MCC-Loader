@@ -105,9 +105,9 @@ while True:
     if chon == '11':
         print("                                              \033[1;39mLoading Others Page..")
         os.system('cls') 
-        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/ghost/ghost_vape.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/others/others_page_1.py').text)
     if chon == '1.1':
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Vape').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/ghost/ghost_vape.py').text)
     if chon == '2.1':
         webbrowser.open_new("https://www.mediafire.com/file/6v9xzhuv1ydezmp/Blossom.zip/file")
     if chon == '3.1':
