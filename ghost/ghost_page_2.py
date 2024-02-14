@@ -28,28 +28,28 @@ mine = """
 
     ╔═════════════════╦═══════════════════════════════════════════════════════╗    
     ║     General     ║                                                       ║    
-    ╠═════════════════╣  MENU:                  │  VAPE CRACKED :             ║   
-    ║——————Ghost——————║    [00] General         │    [4.10] Vape v4.10        ║        
-    ╠═════════════════╣    [01] Ghost Clients   │    [4.06] Vape v4.06        ║   
-    ║     Blatant     ║    [02] Blatant Clients │    [4.04] Vape v4.04 + Lite ║  
-    ╠═════════════════╣    [03] Anarchy Clients │    [3.25] Vape v3.25        ║      
-    ║     Anarchy     ║    [04] Autoclicker     │                             ║     
-    ╠═════════════════╣    [05] CS2 Cheats      │                             ║    
-    ║   AutoClicker   ║    [06] Valorant Cheats │                             ║    
-    ╠═════════════════╣    [07] Roblox Cheats   │                             ║    
-    ║       CS2       ║    [08] MC plugins      │                             ║    
-    ╠═════════════════╣    [09] Spoofer         │                             ║    
-    ║     Valorant    ║    [10] Cracks          │                             ║    
-    ╠═════════════════╣    [11] Others          │                             ║    
-    ║      Roblox     ║                         │                             ║    
+    ╠═════════════════╣  MENU:                  │  GHOST CLIENTS:             ║    
+    ║——————Ghost——————║    [00] General         │    [20.1] Cucklord Reborn   ║    
+    ╠═════════════════╣    [01] Ghost Clients   │    [21.1] Elixe Client      ║    
+    ║     Blatant     ║    [02] Blatant Clients │    [22.1] Iridium Client    ║    
+    ╠═════════════════╣    [03] Anarchy Clients │    [23.1] Axenta V2         ║    
+    ║     Anarchy     ║    [04] Autoclicker     │    [24.1] Smok [v2.2]       ║    
+    ╠═════════════════╣    [05] CS2 Cheats      │    [25.1] Itami Client      ║    
+    ║   AutoClicker   ║    [06] Valorant Cheats │    [26.1] Kriso B1          ║    
+    ╠═════════════════╣    [07] Roblox Cheats   │    [27.1] Mind Client       ║    
+    ║       CS2       ║    [08] MC plugins      │    [28.1] Mye Ghost         ║    
+    ╠═════════════════╣    [09] Spoofer         │    [29.1] Nyctum            ║    
+    ║     Valorant    ║    [10] Cracks          │    [30.1] Shiba             ║    
+    ╠═════════════════╣    [11] Others          │    [31.1] Uboa V2           ║    
+    ║      Roblox     ║                         │    [32.1] Karma [Old]       ║    
+    ╠═════════════════╣                         │    [33.1] Whiteout [Working]║    
+    ║     Plugins     ║                         │    [34.1] Emo Client        ║    
+    ╠═════════════════╣                         │    [35.1] Epic Client       ║    
+    ║     Spoofer     ║                         │    [36.1] Gasper            ║    
+    ╠═════════════════╣                         │    [37.1] Chromatic         ║    
+    ║     Cracks      ║                         │    [38.1] Akira Client      ║    
     ╠═════════════════╣                         │                             ║    
-    ║     Plugins     ║                         │                             ║    
-    ╠═════════════════╣                         │                             ║    
-    ║     Spoofer     ║                         │                             ║    
-    ╠═════════════════╣                         │                             ║    
-    ║     Cracks      ║                         │                             ║    
-    ╠═════════════════╣                         │                             ║    
-    ║     Others      ║                                  [19] <= Go Back      ║    
+    ║     Others      ║  [19] <= Prev Page      │        [21] Next Page =>    ║    
     ╚═════════════════════════════════════════════════════════════════════════╝  
 \n
 """
@@ -57,7 +57,7 @@ mine = """
 print(Colorate.Horizontal(Colors.purple_to_blue, mine, 1))
 print("\n")
 while True:
-    chon = Write.Input("    [vape@input] >  ", Colors.purple_to_blue, interval=0.0025)
+    chon = Write.Input("    [ghost@input] >  ", Colors.purple_to_blue, interval=0.0025)
     if chon == '00':
         print("                                              \033[1;39mLoading General Page..")
         os.system("cls")
@@ -106,17 +106,50 @@ while True:
         print("                                              \033[1;39mLoading Others Page..")
         os.system('cls') 
         exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/others/others_page_1.py').text)
+    if chon == '20.1':
+        webbrowser.open_new("https://www.mediafire.com/file/t9mrmlmgxb4nsgv/Cucklord_Reborn.zip/file")
+    if chon == '21.1':
+        webbrowser.open_new("https://www.mediafire.com/file/ymd1hc1j7nb7qj1/Elixe.zip/file")
+    if chon == '22.1':
+        webbrowser.open_new("https://www.mediafire.com/file/x2epdf2ai8xlr15/Iridium_Ghost.zip/file")
+    if chon == '23.1':
+        webbrowser.open_new("https://www.mediafire.com/file/yzbmndznry00jrk/Axenta_V2.zip/file")
+    if chon == '24.1':
+        webbrowser.open_new("https://www.mediafire.com/file/iiapzj07j8e1z6a/Smok.zip/file")
+    if chon == '25.1':
+        webbrowser.open_new("https://www.mediafire.com/file/vtp18l7ygr7t0ff/Itami.zip/file")
+    if chon == '26.1':
+        webbrowser.open_new("https://www.mediafire.com/file/seaymmk3w14rxt7/Kriso_b1.zip/file")
+    if chon == '27.1':
+        webbrowser.open_new("https://www.mediafire.com/file/0avv5njdwx29omn/Mind_Client.zip/file")
+    if chon == '28.1':
+        webbrowser.open_new("https://www.mediafire.com/file/f8ka0ch9m07680b/Mye_Ghost.zip/file")
+    if chon == '29.1':
+        webbrowser.open_new("https://www.mediafire.com/file/t0cv0fs3mw3vdvq/Nyctum.zip")
+    if chon == '30.1':
+        webbrowser.open_new("https://www.mediafire.com/file/v0jvcvvc1kbhj2t/Shiba.zip/file")
+    if chon == '31.1':
+        webbrowser.open_new(
+            "https://cdn.discordapp.com/attachments/1049374498442461194/1081999382569820180/Uboa_v2.jar")
+    if chon == '32.1':
+        webbrowser.open_new("https://workupload.com/file/JjFABQCJspJ")
+    if chon == '33.1':
+        webbrowser.open_new("https://www.mediafire.com/file/fny7xzarjh8n415/Whiteout_V3.zip/file")
+    if chon == '34.1':
+        webbrowser.open_new("https://www.mediafire.com/file/wgyzc22pxc83ryf/Emo.zip/file")
+    if chon == '35.1':
+        webbrowser.open_new("https://www.mediafire.com/file/98j1hfy0pkjmk7b/Epic.zip/file")
+    if chon == '36.1':
+        webbrowser.open_new("https://www.mediafire.com/file/zjgx3rat06duvm6/Gasper.zip/file")
+    if chon == '37.1':
+        webbrowser.open_new("https://www.mediafire.com/file/vyxlihy85lsx4mu/Chromatic.zip/file")
+    if chon == '38.1':
+        webbrowser.open_new("https://www.mediafire.com/file/9uujyo7z1gl0rms/Akira.zip/file")
     if chon == '19':
         print("                                              \033[1;39mLoading Ghost Page 1..")
-        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/ghost/ghost_page_1.py').text)
-    if chon == '3.25':
-        webbrowser.open_new("https://www.mediafire.com/file/8coudk5wgq9ssla/Vape_v3.25.zip/file")
-    if chon == '4.04':
-        webbrowser.open_new("https://anotepad.com/notes/4qyx3tmb")
-    if chon == '4.06':
-        webbrowser.open_new("https://www.mediafire.com/file/4c02w3mpw89vjwv/Vape+4.06.zip/file")
-    if chon == '4.10':
-        webbrowser.open_new("https://pixeldrain.com/u/zELPqtnN")
-
+        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/ghost_page_1').text)
+    if chon == '21':
+        print("                                              \033[1;39mLoading Ghost Page 3..")
+        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/ghost_page_3').text)
     else:
         print("\033[F\033[K", end="", flush=True)

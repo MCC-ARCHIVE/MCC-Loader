@@ -105,7 +105,7 @@ while True:
     if chon == '11':
         print("                                              \033[1;39mLoading Others Page..")
         os.system('cls') 
-        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/others/others_page_1.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/ghost/ghost_vape.py').text)
     if chon == '1.1':
         exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Vape').text)
     if chon == '2.1':
@@ -135,7 +135,7 @@ while True:
     if chon == '14.1':
         webbrowser.open_new("https://www.mediafire.com/file/njdn9o73gehyxxb/Lithium_Lite.zip/file")
     if chon == '15.1':
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/Raven').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/ghost/ghost_raven.py').text)
     if chon == '16.1':
         webbrowser.open_new("https://www.mediafire.com/file/9bw1ggpe6lpitpe/Fractal.zip/file")
     if chon == '17.1':
