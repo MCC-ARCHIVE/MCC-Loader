@@ -142,6 +142,6 @@ while True:
         webbrowser.open_new("https://www.mediafire.com/file/29naq1ybrud7f5k/WTap_v3.zip/file")
     if chon == '20':
         print("                                              \033[1;39mLoading Ghost Page 2..")
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/ghost_page_2.py').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/ghost_page_2.py').text)
     else:
         print("\033[F\033[K", end="", flush=True)
