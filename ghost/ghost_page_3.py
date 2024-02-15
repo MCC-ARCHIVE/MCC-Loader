@@ -147,9 +147,9 @@ while True:
         webbrowser.open_new("https://www.mediafire.com/file/1gz6dk5dkzonr3s/November.zip/file")
     if chon == '20':
         print("                                              \033[1;39mLoading Ghost Page 2..")
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/ghost_page_2').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/ghost_page_2.py').text)
     if chon == '22':
         print("                                              \033[1;39mLoading Ghost Page 4..")
-        exec(requests.get('https://raw.githubusercontent.com/MCCFree/MCC-Loader/main/ghost_page_4').text)
+        exec(requests.get('https://raw.githubusercontent.com/MCC-ARCHIVE/MCC-Loader/main/ghost_page_4.py').text)
     else:
         print("\033[F\033[K", end="", flush=True)
